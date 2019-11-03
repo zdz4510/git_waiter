@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-nav-bar title="我的" style="border:.5px solid #ededed"></van-nav-bar>
+    <!-- <van-nav-bar title="我的" style="border:.5px solid #ededed"></van-nav-bar> -->
     <van-row>
       <img style="width:100%" src="../../assets/images/home_02.png" alt="">
     </van-row>
