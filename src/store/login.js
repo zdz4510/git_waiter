@@ -32,7 +32,8 @@ export default {
       },
       async info(context,token){
           let info_response = await get("/user/info?token="+token);
-            context.commit("refreshOrders",info_response.data);
+          context.commit("refreshOrders",info_response.data);
+            
       },
       // 退出
       async logout(context){

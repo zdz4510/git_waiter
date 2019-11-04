@@ -63,7 +63,7 @@ export default {
       // console.log(this.userList);
       this.loginIn(this.userList)
       .then(()=>{
-        this.$router.push('/manager/user')
+        this.$router.push('/manager/home')
       })
     }
   }
